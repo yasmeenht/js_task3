@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant DOM & Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container main">
+        <h3>Welcome to Your Next Favorite Meal!</h3>
+        <form>
+            <input type="text" placeholder="Enter your name"><br><br>
+            <select id="order">
+                <option>Burger</option>
+                <option>Shawarma</option>
+                <option>Zinger</option>
+            </select><br><br>
+
+            <button type="button">Submit</button>
+        </form>
+    </div>
+
+    <div class="container result">
+        <p>Hello <span class="name"></span> Your order is <span class="order"></span>!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

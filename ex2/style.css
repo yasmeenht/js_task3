@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}
+.font-decoration{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+}
+.text-box {
+    width: 500px;
+    height: 200px;
+    resize: none;
+}
